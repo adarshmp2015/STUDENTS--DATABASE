@@ -1,4 +1,5 @@
 ActiveAdmin.register AdminUser do
+  permit_params :name, :address, :contact_number, :register_no, :SGPA_in_S1S2, :SGPA_in_S3, :SGPA_in_S4, :SGPA_in_S5, :SGPA_in_S6, :SGPA_in_S7, :SGPA_in_S8
 
   permit_params :email, :password, :password_confirmation
 
